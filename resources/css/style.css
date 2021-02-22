@@ -1,0 +1,93 @@
+html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+  background-color: rgba(0, 0, 0, 1);
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+ul {
+  list-style: none;
+}
+.nav-bar a{
+  color:rgba(255, 255, 255, 1);
+}
+#splash:hover {
+  cursor: pointer;
+}
+.title{
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.nav-bar{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba(255, 255, 255, 0.125);
+}
+.title{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.port-link{
+  text-transform: lowercase;
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.2rem;
+}
+h3.sub-title{
+  font-size: 1.4rem;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.sub-title a{
+  color: rgba(255, 255, 255, 0.9);
+}
+.port-grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+}
+.grid-ul {
+  margin: 0 auto;
+}
+.grid-title{
+  grid-column: span 2;
+  grid-row: 1;
+}
+.port-logo{
+  grid-column: span 2;
+  grid-row: 2;
+  align-self: center;
+  display: flex;
+}
+.port-logo img{
+  display: flex;
+  align-content: center;
+
+}
+.grid-ul{
+  grid-row: span 2;
+}
+
+span {
+  display: none;
+}
+
+video{
+  display: block;
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}

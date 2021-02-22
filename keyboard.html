@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158596511-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-158596511-3');
+  </script>
+  <link rel="shortcut icon" href="/resources/images/fav.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyboard</title>
+  <link rel="stylesheet" href="/resources/css/keys.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="keys-layout">
+    <img src="/resources/images/keys.png" alt="keyboard layout">
+  </div>
+  <div class="container">
+    <div class="grid">
+      <div class="white" id="c" onclick="playC()"><span>C</span></div>
+      <div class="black" id="c-sharp" onclick="playCSharp()"><span>C#/Db</span></div>
+      <div class="white" id="d" onclick="playD()">D</div>
+      <div class="black" id="d-sharp" onclick="playDSharp()"><span>D#/Eb</span></div>
+      <div class="white" id="e" onclick="playE()"><span>E</span></div>
+      <div class="white" id="f" onclick="playF()"><span>F</span></div>
+      <div class="black" id="f-sharp" onclick="playFSharp()"><span>F#/Gb</span></div>
+      <div class="white" id="g" onclick="playG()"><span>G</span></div>
+      <div class="black" id="g-sharp" onclick="playGSharp()"><span>G#/Ab</span></div>
+      <div class="white" id="a" onclick="playA()"><span>A</span></div>
+      <div class="black" id="a-sharp" onclick="playASharp()"><span>A#/Bb</span></div>
+      <div class="white" id="b" onclick="playB()"><span>B</span></div>
+      <div class="white" id="c-octave"  onclick="playCOct()"><span>C</span></div>
+    </div>
+    <h2 id="note"></h2>
+  </div>
+  
+</body>
+<script src="/resources/javascript/keys.js"></script>
+</html>
